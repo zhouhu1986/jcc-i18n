@@ -1,0 +1,35 @@
+{
+  "name": "jcc-i18n",
+  "version": "0.1.0",
+  "description": "word and translation for jccdex",
+  "files": [
+    "i18n"
+  ],
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-i18n-json": "^2.4.1"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "deploy": "./publish.sh",
+    "lint": "eslint --fix --ext .json --format node_modules/eslint-plugin-i18n-json/formatter.js i18n/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCCDex/jcc-i18n.git"
+  },
+  "keywords": [
+    "jccdex",
+    "i18n"
+  ],
+  "author": "JCCDex",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JCCDex/jcc-i18n/issues"
+  },
+  "homepage": "https://github.com/JCCDex/jcc-i18n#readme"
+}
