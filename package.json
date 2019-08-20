@@ -6,17 +6,17 @@
     "i18n"
   ],
   "main": "index.js",
-  "dependencies": {
-
-  },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^6.1.0",
-    "eslint-plugin-i18n-json": "^2.4.1"
+    "eslint-plugin-i18n-json": "^2.4.1",
+    "mocha": "^6.2.0"
   },
   "scripts": {
-    "test": "npm run lint",
+    "test": "npm run lint && mocha",
     "deploy": "./publish.sh",
-    "lint": "eslint --fix --ext .json --format node_modules/eslint-plugin-i18n-json/formatter.js i18n/"
+    "lint": "eslint --ext .json i18n/",
+    "format": "eslint --fix --ext .json --format node_modules/eslint-plugin-i18n-json/formatter.js i18n/"
   },
   "repository": {
     "type": "git",
