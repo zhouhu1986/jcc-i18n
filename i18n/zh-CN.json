@@ -1,5 +1,21 @@
 {
   "bizain": "商链",
+  "chain": {
+    "biz": "BIZ链",
+    "biz_wallet": "@:message.chain.biz钱包",
+    "call": "CALL链",
+    "call_wallet": "@:message.chain.call钱包",
+    "eth": "以太链",
+    "eth_wallet": "@:message.chain.eth钱包",
+    "moac": "MOAC链",
+    "moac_wallet": "@:message.chain.moac钱包",
+    "stm": "STM链",
+    "stm_wallet": "@:message.chain.stm钱包",
+    "swt": "SWTC交易钱包",
+    "swt_wallet": "SWTC钱包",
+    "xrp": "瑞波链",
+    "xrp_wallet": "@:message.chain.xrp钱包"
+  },
   "current_order": "当前订单",
   "deposit": {
     "amount": "转入数量",
@@ -40,10 +56,152 @@
   "ether_wallet": "@:message.ethereum@:message.wallet",
   "ethereum": "以太",
   "moac": "墨客",
+  "password_management": {
+    "confirm_new_trade_password": "请确认新@:message.password_management.trade_password",
+    "confirm_trade_password": "请确认@:message.password_management.trade_password",
+    "for_account_secure": "为了确保您的账户安全，请输入@:message.password_management.trade_password",
+    "for_asset_secure": "为了您的资金安全,请输入@:message.password_management.trade_password",
+    "input_current_trade_password": "请输入当前@:message.password_management.trade_password",
+    "input_old_trade_password": "请输入原@:message.password_management.trade_password",
+    "input_trade_password": "请输入@:message.password_management.trade_password",
+    "input_trade_password_again": "请再次输入新@:message.password_management.trade_password",
+    "limit": "@:message.password_management.trade_password 8-64位大写字母，小写字母与数字三种组合",
+    "modify_trade_password": "更改@:message.password_management.trade_password",
+    "password_free": "15分钟内免输入@:message.password_management.trade_password",
+    "password_is_wrong": "@:message.password_management.trade_password错误",
+    "reset_trade_password": "重置@:message.password_management.trade_password",
+    "set_new_trade_password": "请设置新@:message.password_management.trade_password",
+    "set_trade_password": "请设置@:message.password_management.trade_password",
+    "trade_password": "交易密码"
+  },
   "ripple": "瑞波",
   "swtc": "SWTC",
   "swtc_wallet": "@:message.swtc@:message.wallet",
+  "test": {
+    "basicTest": "基础测试题",
+    "basicTest2": "基础测试",
+    "info": "注册前请先完成",
+    "info2": "测试通过后进入注册。",
+    "info3": "秒钟即将进入注册页面",
+    "info4": "虽然这次次没有满分，但是你可以根据提示把题目做满分哦",
+    "submit": "@:message.confirm",
+    "submitTest": "提交测试",
+    "testOver": "测试完成！",
+    "testResult": "测试结果",
+    "topicList": {
+      "eighth": {
+        "title": "8.下列哪个用户损失是威链需要承担的？",
+        "topicA": "A.因威链系统错误导致用户交易错误",
+        "topicB": "B.因用户丢失钱包密钥造成财产损失",
+        "topicC": "C.用户进行交易时误操作造成财产损失",
+        "topicD": "D.因天气原因威链系统故障用户不能交易"
+      },
+      "eleventh": {
+        "title": "11.下列哪种情况不会导致登录威链没有钱包？",
+        "topicA": "A.更换浏览器",
+        "topicB": "B.更换电脑",
+        "topicC": "C.登出后再登录",
+        "topicD": "D.清除浏览器缓存"
+      },
+      "fifteenth": {
+        "title": "15.钱包密钥泄露怎么处理？",
+        "topicA": "A.更换交易密码",
+        "topicB": "B.转出钱包内资产，该钱包作废不使用",
+        "topicC": "C.更换登录密码",
+        "topicD": "D.以上都可以"
+      },
+      "fifth": {
+        "title": "5.忘记交易密码了怎么办？",
+        "topicA": "A.点击忘记密码重置",
+        "topicB": "B.点击添加钱包，输入原始钱包地址密钥，重置交易密码",
+        "topicC": "C.找客服，让客服帮忙重置交易密码",
+        "topicD": "D.网站自动保存交易密码，不需要记"
+      },
+      "first": {
+        "title": "1.在虚拟币领域，区块链是什么？",
+        "topicA": "A. 拥有虚拟币的公司",
+        "topicB": "B. 虚拟币软件",
+        "topicC": "C. 一条金项链",
+        "topicD": "D. 记录所有虚拟币交易的时间戳账簿"
+      },
+      "fourteenth": {
+        "title": "14.威链提供的兑入兑出有哪些？",
+        "topicA": "A.BTC兑入兑出",
+        "topicB": "B.SWT兑入兑出",
+        "topicC": "C.UST兑入兑出",
+        "topicD": "D.CNT兑入兑出"
+      },
+      "fourth": {
+        "title": "4.下列哪个是威链不提供的服务？",
+        "topicA": "A.找回用户的交易密码",
+        "topicB": "B.币币兑换交易",
+        "topicC": "C.当前交易行情查询",
+        "topicD": "D.创建钱包"
+      },
+      "ninth": {
+        "title": "9.威链平台采取什么交易机制？",
+        "topicA": "A.集合竞价",
+        "topicB": "B.连续竞价",
+        "topicC": "C.做市商交易",
+        "topicD": "D.撮合交易"
+      },
+      "second": {
+        "title": "2．钱包密钥是什么？",
+        "topicA": "A.一串钥匙",
+        "topicB": "B.钱包密码",
+        "topicC": "C.钱包密钥：是证明数字资产所有权的一个字符串",
+        "topicD": "D.无关紧要的东西"
+      },
+      "seventh": {
+        "title": "7.密钥丢失了怎么办？",
+        "topicA": "A.点击忘记密码重置",
+        "topicB": "B.钱包密钥自己保管遗失,无法找回",
+        "topicC": "C.找客服，让客服帮忙找回",
+        "topicD": "D.网站自动保存密钥，不需要记"
+      },
+      "sixth": {
+        "title": "6.下面哪个操作是未实名不可以做的？",
+        "topicA": "A.兑入",
+        "topicB": "B.交易",
+        "topicC": "C.兑出",
+        "topicD": "D.查看详情"
+      },
+      "tenth": {
+        "title": "10.按照下列哪个步骤可以兑入UST成功？",
+        "topicA": "A.提交兑入申请-等待到账",
+        "topicB": "B.提交兑入申请-按指定要求转账-等待到账",
+        "topicC": "C.找客服兑入UST",
+        "topicD": "D.提交兑入申请-转账-等待到账"
+      },
+      "third": {
+        "title": "3.钱包密钥怎么保存最安全？",
+        "topicA": "A.手机（电脑）截图保存",
+        "topicB": "B.发送到qq、微信、微博等软件保存",
+        "topicC": "C.记录在手机电脑记事本中",
+        "topicD": "D.纸质记事本上抄写密钥保存"
+      },
+      "thirteenth": {
+        "title": "13.威链兑入支持哪种方式？",
+        "topicA": "A.银行转账",
+        "topicB": "B.支付宝转账",
+        "topicC": "C.微信转账",
+        "topicD": "D.以上都可以"
+      },
+      "twelfth": {
+        "title": "12.下面哪个是保存钱包最重要的内容？",
+        "topicA": "A.登录密码",
+        "topicB": "B.密钥",
+        "topicC": "C.交易密码",
+        "topicD": "D.导出钱包文件"
+      }
+    }
+  },
   "wallet": "钱包",
+  "wallet_management": {
+    "input_new_secret": "请输入新{wallet}密钥",
+    "input_secret": "请输入{wallet}密钥",
+    "wallet_name": "钱包名称："
+  },
   "withdraw": {
     "amount": "提取数量",
     "amount_limit": "@:message.withdraw.minimum_value, @:message.withdraw.maximum_value",

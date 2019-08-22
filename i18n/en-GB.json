@@ -1,5 +1,21 @@
 {
   "bizain": "BIZAIN",
+  "chain": {
+    "biz": "BIZ",
+    "biz_wallet": "@:message.chain.biz wallet",
+    "call": "CALL",
+    "call_wallet": "@:message.chain.call wallet",
+    "eth": "ETH",
+    "eth_wallet": "@:message.chain.eth wallet",
+    "moac": "MOAC",
+    "moac_wallet": "@:message.chain.moac wallet",
+    "stm": "STM",
+    "stm_wallet": "@:message.chain.stm wallet",
+    "swt": "SWTC",
+    "swt_wallet": "@:message.chain.swt wallet",
+    "xrp": "XRP",
+    "xrp_wallet": "@:message.chain.xrp wallet"
+  },
   "current_order": "current order",
   "deposit": {
     "amount": "Amount to deposit",
@@ -40,10 +56,152 @@
   "ether_wallet": "@:message.ethereum@:message.wallet",
   "ethereum": "Ethereum",
   "moac": "MOAC",
+  "password_management": {
+    "confirm_new_trade_password": "Please confirm @:message.password_management.trade_password",
+    "confirm_trade_password": "please confirm @:message.password_management.trade_password",
+    "for_account_secure": "In order to secure your account, please enter your transaction password.",
+    "for_asset_secure": "For security of your assets, please input password",
+    "input_current_trade_password": "Please enter the current password",
+    "input_old_trade_password": "Please input old password",
+    "input_trade_password": "Please enter the password",
+    "input_trade_password_again": "Please input new password again",
+    "limit": "the transaction password,length 8-64 characters, must have a number, letter case",
+    "modify_trade_password": "change Password",
+    "password_free": "No need to enter password within 15 minutes",
+    "password_is_wrong": "Incorrect transaction password",
+    "reset_trade_password": "reset trading password",
+    "set_new_trade_password": "Please set new password",
+    "set_trade_password": "please set password",
+    "trade_password": "Transaction password"
+  },
   "ripple": "Ripple(XRP)",
   "swtc": "SWTC",
   "swtc_wallet": "@:message.swtc@:message.wallet",
+  "test": {
+    "basicTest": "Preliminary tests",
+    "basicTest2": "Preliminary tests",
+    "info": "Please complete tests before registration",
+    "info2": "Start registering after completing tests",
+    "info3": "Jumping to registration in seconds",
+    "info4": "Though you  don't score ful marks this time, you can make it next time based on the prompts.",
+    "submit": "@:message.confirm",
+    "submitTest": "Submit to test",
+    "testOver": "Test completed!",
+    "testResult": "Testing results",
+    "topicList": {
+      "eighth": {
+        "title": "8.Which of the following loss by the customer is at the cost of WeiDEX?",
+        "topicA": "A.Wrong trading due to WeiDEX system fault",
+        "topicB": "B.Financial loss due to loss of user's wallet key",
+        "topicC": "C.Financial loss caused by user's misoperation",
+        "topicD": "D.User's inability to trade due to WeiDEX system fault caused by bad weather"
+      },
+      "eleventh": {
+        "title": "11.Which of the following will not result in WeiDEX login without a wallet?",
+        "topicA": "A.Changing browsers",
+        "topicB": "B.Changing computers",
+        "topicC": "C.Logout and login again",
+        "topicD": "D.Clearing browser cache"
+      },
+      "fifteenth": {
+        "title": "15.What to do when wallet key is leaked?",
+        "topicA": "A.Replace trading password",
+        "topicB": "B.Transfer assets out from the wallet and leave it desolate",
+        "topicC": "C.Chaneg login password",
+        "topicD": "D.All the above are acceptable"
+      },
+      "fifth": {
+        "title": "5.What to do when forgetting trading passwords?",
+        "topicA": "A.Click 'Password frgotten' to reset",
+        "topicB": "B.Click 'Add wallet', then input original wallet address and key to reset trading password",
+        "topicC": "C.Contact customer service to assist password reset",
+        "topicD": "D.No need to keep trading password. It is auto-saved on the website."
+      },
+      "first": {
+        "title": "1.What is the blockchain in the virtual currency field?",
+        "topicA": "A. Company with virtual currency",
+        "topicB": "B. Virtual currency software",
+        "topicC": "C. A golden chain",
+        "topicD": "D.Timestamp books that record all virtual currency transactions"
+      },
+      "fourteenth": {
+        "title": "14.What are the deposit and withdrawal WeiDEX provides?",
+        "topicA": "A.BTC deposit and withdrawal",
+        "topicB": "B.SWT deposit and withdrawal",
+        "topicC": "C.UST deposit and withdrawal",
+        "topicD": "D.CNT deposit and withdrawal"
+      },
+      "fourth": {
+        "title": "4.Which of the following services WeiDEX does not provide?",
+        "topicA": "A.To retrieve user's trading password",
+        "topicB": "B.To exchange between currencies",
+        "topicC": "C.To view live market quotings",
+        "topicD": "D.To generate wallets"
+      },
+      "ninth": {
+        "title": "9.Which trading mechanism does WeiDEX platform adopt?",
+        "topicA": "A.Grouped bidding",
+        "topicB": "B.Continous bidding",
+        "topicC": "C.Brokery trading by market makers",
+        "topicD": "D.Matched trading"
+      },
+      "second": {
+        "title": "2．What is wallet key?",
+        "topicA": "A.A bunch of keys",
+        "topicB": "B.Wallet key",
+        "topicC": "C.Wallet key: A string that accesses ownership of digital assets",
+        "topicD": "D.Something trivial"
+      },
+      "seventh": {
+        "title": "7.What to do when key is lost?",
+        "topicA": "A.To reset by clicking 'Password forgotten'",
+        "topicB": "B.No way to get it back. Wallet key is only for the user to keep",
+        "topicC": "C.Contact customer service to assist password reset",
+        "topicD": "D.No need to keep the key. It is auto-saved on the website."
+      },
+      "sixth": {
+        "title": "6.Which of the following operations is available only by real name?",
+        "topicA": "A.To deposit",
+        "topicB": "B.To trade",
+        "topicC": "C.To transfer out",
+        "topicD": "D.View details"
+      },
+      "tenth": {
+        "title": "10.Which of the following can lead to successful UST deposit?",
+        "topicA": "A.Submit deposit request - waiting for the account to receive assets",
+        "topicB": "B.Submit deposit request - make transfer as specified - waiting for the account to receive assets",
+        "topicC": "C.Find customer service to deposit UST",
+        "topicD": "D.Submit deposit request - make transfer - waiting for the account to receive assets"
+      },
+      "third": {
+        "title": "3.What's the most secure way to keep wallet keys?",
+        "topicA": "A.Screenshots saved on mobile phone (PC)",
+        "topicB": "B.Send to QQ, Wechat, Weibo or other software",
+        "topicC": "C.Recor in mobile phone (PC) notes",
+        "topicD": "D.Write the key on paper"
+      },
+      "thirteenth": {
+        "title": "13.Which is supported by WeiDEX deposit?",
+        "topicA": "A.Bank transer",
+        "topicB": "B.Alipay transfer",
+        "topicC": "C.Wechat transfer",
+        "topicD": "D.All of the above"
+      },
+      "twelfth": {
+        "title": "12.Which of the following saves the most important content of a wallet?",
+        "topicA": "A.Login password",
+        "topicB": "B.Key",
+        "topicC": "C.Trading password",
+        "topicD": "D.Export wallet file"
+      }
+    }
+  },
   "wallet": "Wallet",
+  "wallet_management": {
+    "input_new_secret": "Please input new {wallet} key",
+    "input_secret": "Please input {wallet} key",
+    "wallet_name": "Wallet name："
+  },
   "withdraw": {
     "amount": "Amount to withdraw",
     "amount_limit": "@:message.withdraw.minimum_value, @:message.withdraw.maximum_value",
