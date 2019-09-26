@@ -29,7 +29,7 @@
     "copy_success": "内容已经复制到粘贴板",
     "current_order": "@:message.current_order: ",
     "disable_deposit_temporarily": "暂时不能转入",
-    "eth_limit": "充币前请确保以太钱包保留0.1ETH（智能合约银关处理门槛，实际消耗gas会按照当前网络实况）",
+    "eth_limit": "充币前请确保以太钱包保留0.02ETH（智能合约银关处理门槛，实际消耗gas会按照当前网络实况）",
     "ether_wallet": "@:message.ether_wallet",
     "failed": "充币失败，可能网络拥堵或余额不足，请稍后再试！",
     "hash": "交易哈希",
