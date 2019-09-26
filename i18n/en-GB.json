@@ -29,7 +29,7 @@
     "copy_success": "Content copied to clipboard",
     "current_order": "@:message.current_order: ",
     "disable_deposit_temporarily": "Deposit is not available temporarily.",
-    "eth_limit": "Before depositing make sure there's 0.1ETH minimum in the ETH wallet(Threshold for processing smart contracts across chains). Actual gas is consumed according to current network conditions.",
+    "eth_limit": "Before depositing make sure there's 0.02ETH minimum in the ETH wallet(Threshold for processing smart contracts across chains). Actual gas is consumed according to current network conditions.",
     "ether_wallet": "@:message.ether_wallet",
     "failed": "Deposit failed, the network may be congested or the balance maybe insufficient. Please try again later！",
     "hash": "transaction hash",
